@@ -1,0 +1,29 @@
+{"foods": [
+  { id: 1, name: "Chicken Pot Pie", category: "Savory", description: "" },
+  { id: 2, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 3, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 4, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 5, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 6, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 7, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 8, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 9, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 10, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 11, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 12, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 13, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 14, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 15, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 16, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 17, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 18, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 19, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 20, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 21, name: "Fiesta Mac", category: "Spicy",  description: "" },
+  { id: 22, name: "Chicken Pot Pie", category: "Savory",  description: "" },
+  { id: 23, name: "Apple Turnover", category: "Sweet",  description: "" },
+  { id: 24, name: "Fiesta Mac", category: "Spicy",  description: "" },
+]
+};
+
+export default foods;
