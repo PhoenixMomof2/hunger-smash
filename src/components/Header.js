@@ -5,6 +5,8 @@ function Header() {
   return (
     <header>
       <h1>HUNGER SMASH</h1>
+      <br />
+      <hr />
       <img src={image} alt="pic of empty plate" />
     </header>
   );
