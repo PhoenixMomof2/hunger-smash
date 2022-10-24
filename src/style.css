@@ -37,16 +37,26 @@ header {
 }
 
 button {
-  background-color: gray;
-  color: white;
-  padding: 0.25rem;
-  margin: 0.5rem;
+  background: #9e23ba;
+  background-image: -webkit-linear-gradient(top, #9e23ba, #3db82b);
+  background-image: -moz-linear-gradient(top, #9e23ba, #3db82b);
+  background-image: -ms-linear-gradient(top, #9e23ba, #3db82b);
+  background-image: -o-linear-gradient(top, #9e23ba, #3db82b);
+  background-image: linear-gradient(to bottom, #9e23ba, #3db82b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #9e23ba;
+  padding: 10px 20px 10px 20px;
+  border: solid #9e23ba 2px;
+  text-decoration: none;
 }
 
-button span[role="img"] {
-  color: transparent;
-  text-shadow: 0 0 0 white;
-  margin-right: 0.5rem;
+.btn:hover {
+  text-decoration: none;
 }
 
 main {

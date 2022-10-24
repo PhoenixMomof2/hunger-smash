@@ -3,12 +3,14 @@ import image from "../images/hungerSmashLogo.jpg";
 
 function Header() {
   return (
-    <header>
-      <h1>HUNGER SMASH</h1>
-      <br />
-      <hr />
-      <img src={image} alt="pic of empty plate" />
-    </header>
+    <div>
+      <header>
+        <img src={image} alt="pic of empty plate" />
+        <h1>HUNGER SMASH</h1>
+      </header>
+      <br/>
+      <hr/>
+    </div>
   );
 }
 export default Header;
