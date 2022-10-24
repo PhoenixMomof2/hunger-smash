@@ -18,16 +18,18 @@ code {
 
 h1 {
   margin: 0.5rem 0;
-  font-size: 400px;
+  font-size: 30px;
+  text-align: center;
 }
 
 h2 {
   margin: 0.5rem 0;
   font-size: 100px;
+  text-align: center;
 }
 
 header { 
-  background-color: salmon;
+  background-color: rgba(8, 8, 115, 0.711);
   display: flex;
   justify-content: space-between;
   align-items: center;
