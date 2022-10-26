@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+div {
+margin: auto;
+}
+
 h1 {
   margin: 0.5rem 0;
   font-size: 30px;
@@ -34,6 +38,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem;
+}
+
+li {
+  display: inline;
 }
 
 button {

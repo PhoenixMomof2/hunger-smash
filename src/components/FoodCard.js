@@ -1,6 +1,6 @@
 import React from "react";
 
-function FoodCard() {
+function FoodTable() {
   return (
   <div className="food-Container">
     <table>
@@ -16,4 +16,4 @@ function FoodCard() {
     )
 }
 
-export default FoodCard;
+export default FoodTable;
