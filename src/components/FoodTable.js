@@ -1,9 +1,9 @@
 import React from "react";
-import {foods} from './App';
 
 function FoodTable() {
   return (
     <div className="food-Container">
+      {console.log("Table Rendering")}
       <table>
         <thead>
           <tr>

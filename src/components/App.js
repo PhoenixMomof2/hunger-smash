@@ -3,26 +3,28 @@ import React from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
 // import FoodForm from './FoodForm';
-import FoodTable from "./FoodTable";
+// import FoodTable from "./FoodTable";
 import { useState, useEffect } from "react";
-// import Style from "./Style";
+
 
 const url = "http://localhost:3001/foods";
 
 const App = () => {
-  const [foods, setFoods] = useState(foods);
+  const [foods, setFoods] = useState([]);
 
   useEffect(() => {
+    console.log("Using useEffect")
     fetch(url)
       .then((res) => res.json())
-      .then((foods) => setFoods(foods));
+      .then((foods) => setFoods(foods))
   }, []);
 
   return (
     <div className="app-container">
+      {console.log("App Rendering")}
       <Header />
       <NavBar />
-      <FoodTable />
+      <ul>{foods.name}</ul>
     </div>
   );
 };
