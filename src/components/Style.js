@@ -1,4 +1,4 @@
-import sytled from 'styled-components';
+import styled from 'styled-components';
 
 const Button = styled.button`
   /* Adapt the colors based on primary prop */
@@ -12,9 +12,4 @@ const Button = styled.button`
   border-radius: 3px;
 `;
 
-render(
-  <div>
-    <Button>Normal</Button>
-    <Button primary>Primary</Button>
-  </div>
-);
+export default styled;

@@ -1,33 +1,30 @@
-import React from 'react';
+import React from "react";
 
-import Header from './Header';
-import NavBar from './NavBar';
+import Header from "./Header";
+import NavBar from "./NavBar";
 // import FoodForm from './FoodForm';
-// import FoodTable from './FoodTable';
-import { useState, useEffect } from 'react';
+import FoodTable from "./FoodTable";
+import { useState, useEffect } from "react";
+// import Style from "./Style";
 
-const url = 'http://localhost:3001/foods'
+const url = "http://localhost:3001/foods";
 
 const App = () => {
-
-  const [foods, setFoods] = useState([])
+  const [foods, setFoods] = useState(foods);
 
   useEffect(() => {
     fetch(url)
-    .then(res => res.json())
-    .then(foods => setFoods(foods));
+      .then((res) => res.json())
+      .then((foods) => setFoods(foods));
   }, []);
 
-  const meals = foods.map(food => <li>{food.name}</li>)
-  
-
   return (
-    <div className="App">
+    <div className="app-container">
       <Header />
       <NavBar />
-       <ul>{meals}</ul>
+      <FoodTable />
     </div>
   );
-}
+};
 
 export default App;
