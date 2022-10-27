@@ -16,13 +16,11 @@ function FoodTable(foods) {
           </tr>
         </thead>
         <tbody>
-          {foods.map((food) => (
             <tr>
-              <td>name={food.name}</td>
-              <td>category={food.category}</td>
-              <td>description={food.description}</td>
+              <td>{foods.name}</td>
+              <td>{foods.category}</td>
+              <td>{foods.description}</td>
             </tr>
-          ))}
         </tbody>
       </table>
     </div>
