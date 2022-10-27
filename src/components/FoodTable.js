@@ -3,7 +3,7 @@ import * as RMFunctions from './App';
 
 function FoodTable(foods) {
 
-  
+
   return (
     <div className="food-Container">
       {console.log("Table Rendering")}
@@ -18,9 +18,9 @@ function FoodTable(foods) {
         <tbody>
           {foods.map((food) => (
             <tr>
-              <td>{food.name}</td>
-              <td>{food.category}</td>
-              <td>{food.description}</td>
+              <td>name={food.name}</td>
+              <td>category={food.category}</td>
+              <td>description={food.description}</td>
             </tr>
           ))}
         </tbody>
