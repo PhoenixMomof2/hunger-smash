@@ -5,11 +5,11 @@
   { "id": 4, "name": "Steak Quesadilla", "imgUrl": "https://natashaskitchen.com/wp-content/uploads/2020/01/Philly-Cheesesteak-Quesedilla-5.jpg", "category": "Savory",  "description": "" },
   { "id": 5, "name": "Chocolate Lava Cake", "imgUrl": "https://www.recipetineats.com/wp-content/uploads/2021/02/Chocolate-Lava-Cake_7-SQ.jpg", "category": "Sweet",  "description": "" },
   { "id": 6, "name": "Jerk Chicken Alfredo Pasta", "imgUrl": "https://hips.hearstapps.com/hmg-prod/images/rasta-pasta-horizontal-1539379408.jpg", "category": "Spicy",  "description": "" },
-  { "id": 7, "name": "Black Bean Nachos", "imgUrl": "https://ifoodreal.com/wp-content/uploads/2016/12/spicy-black-bean-nachos-6.jpg", "category": "Savory",  "description": "" },
+  { "id": 7, "name": "Black Bean Nachos", "imgUrl": "https://ifoodreal.com/wp-content/uploads/2016/12/spicy-black-bean-nachos-6.jpg", "category": "Spicy",  "description": "" },
   { "id": 8, "name": "Blueberry Yogurt Parfait", "imgUrl": "https://thecakeblog.com/wp-content/uploads/2015/06/blueberry_yogurt_parfait.jpg", "category": "Sweet",  "description": "" },
-  { "id": 9, "name": "Fiesta Mac", "imgUrl": "", "category": "Spicy",  "description": "" },
-  { "id": 10, "name": "Chicken Pot Pie", "imgUrl": "", "category": "Savory",  "description": "" },
-  { "id": 11, "name": "Apple Turnover", "imgUrl": "", "category": "Sweet",  "description": "" },
-  { "id": 12, "name": "Fiesta Mac", "imgUrl": "", "category": "Spicy",  "description": "" }
+  { "id": 9, "name": "Ground Turkey Tacos", "imgUrl": "https://carlsbadcravings.com/wp-content/uploads/2018/09/turkey-tacos-16.jpg", "category": "Spicy",  "description": "" },
+  { "id": 10, "name": "Meatballs & Spaghetti Squash", "imgUrl": "https://www.primaverakitchen.com/wp-content/uploads/2018/11/Whole30-Low-Carb-Spaghetti-Squash-and-Meatballs-Primavera-Kitchen-5.jpg", "category": "Savory",  "description": "" },
+  { "id": 11, "name": "Hazelnut Gelato", "imgUrl": "http://themessybaker.com/wp-content/uploads/2013/06/hazelnut-gelato-close.gif", "category": "Sweet",  "description": "" },
+  { "id": 12, "name": "Banana Nut Bread", "imgUrl": "https://www.smalltownwoman.com/wp-content/uploads/2021/04/Banana-Bread-5.jpg", "category": "Sweet",  "description": "" }
 ]
 }
