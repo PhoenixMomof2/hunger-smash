@@ -11,9 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-text-align: center;
-
-table {
+div.food-Table {
   border: 2px solid;
   border-collapse: collapse;
   text-align: center;
