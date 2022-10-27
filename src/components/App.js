@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
-import FoodCard from "./FoodCard";
+import FoodContainer from "./FoodContainer";
 // import FoodForm from './FoodForm';
 // import FoodTable from "./FoodTable";
 
@@ -16,16 +16,17 @@ const App = () => {
     fetch(url)
       .then((res) => res.json())
       .then((foods) => setFoods(foods));
-  }, [foods]);
+      console.log(foods)
+  });
 
   return (
     <div className="app-container">
       {console.log("App Rendering")}
       <Header />
       <NavBar />
-      <FoodCard />
+      <FoodContainer foods={foods}/>
     </div>
   );
-};
+}
 
 export default App;
