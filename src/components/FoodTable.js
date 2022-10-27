@@ -1,6 +1,9 @@
 import React from "react";
+import * as RMFunctions from './App';
 
-function FoodTable() {
+function FoodTable(foods) {
+
+  
   return (
     <div className="food-Container">
       {console.log("Table Rendering")}
