@@ -1,11 +1,11 @@
 import React from "react";
 
-function FoodCard({foods}) {
+function FoodCard({ foods }) {
   return (
     <>
       <li className="cards_item">
-      <div className="card_title">{foods.name}</div>
         <div className="card">
+          <div className="card_title">{foods.name}</div>
           <img className="card_image" src={foods.imgUrl} alt={foods.name} />
           <div className="card_content">
             <p className="card_text">{foods.category}</p>
