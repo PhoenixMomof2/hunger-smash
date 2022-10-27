@@ -1,11 +1,9 @@
 import React from "react";
-import * as RMFunctions from './App';
+import Food from "./Food";
 
-function FoodTable(foods) {
-
-
+function FoodTable({ foods }) {
   return (
-    <div className="food-Container">
+    <div className="food-Table">
       {console.log("Table Rendering")}
       <table>
         <thead>
@@ -16,11 +14,9 @@ function FoodTable(foods) {
           </tr>
         </thead>
         <tbody>
-            <tr>
-              <td>{foods.name}</td>
-              <td>{foods.category}</td>
-              <td>{foods.description}</td>
-            </tr>
+          {foods.map((food) => (
+            <Food key={food.id} food={food} />
+          ))}
         </tbody>
       </table>
     </div>

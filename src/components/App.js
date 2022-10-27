@@ -3,8 +3,9 @@ import { useState, useEffect } from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import FoodContainer from "./FoodContainer";
+import FoodTable from "./FoodTable";
+
 // import FoodForm from './FoodForm';
-// import FoodTable from "./FoodTable";
 
 const url = "http://localhost:3001/foods";
 
@@ -17,14 +18,15 @@ const App = () => {
       .then((res) => res.json())
       .then((foods) => setFoods(foods));
       console.log(foods)
-  });
+  }, []);
 
   return (
     <div className="app-container">
       {console.log("App Rendering")}
       <Header />
       <NavBar />
-      <FoodContainer foods={foods}/>
+      <FoodTable foods={foods} />
+      <FoodContainer foods={foods} />
     </div>
   );
 }

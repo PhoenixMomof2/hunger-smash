@@ -1,8 +1,8 @@
 import React from "react";
-import Food from "./Food";
+import FoodCard from "./FoodCard";
 
 const FoodContainer = ({ foods }) => {
-  const foodsCard = foods.map((food) => (<Food key={food.id} foods={food} />));
+  const foodsCard = foods.map((food) => (<FoodCard key={food.id} foods={food} />));
   return <ul className="cards">{foodsCard}</ul>;
 }
 
