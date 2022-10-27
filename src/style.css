@@ -11,10 +11,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-table, th, td {
+table {
   border: 2px solid;
   border-collapse: collapse;
+  text-align: left;
 }
+
+td {
+  border: 2px solid;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  border: 2px solid;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+  background-color: #7304aa;
+  color: black;
+}
+
+tr:hover {background-color: rgb(219, 228, 95);}
+
+tr:nth-child(even) {background-color: #aa24a6;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
