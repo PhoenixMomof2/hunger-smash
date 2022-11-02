@@ -108,10 +108,11 @@ main {
   padding: 0.5rem;
   background-color: rgb(3, 52, 143);
 }
-
+/* 
 .card img {
-  width: 100%;
-}
+  width: 100%; 
+}*/
+
 
 form {
   display: flex;
