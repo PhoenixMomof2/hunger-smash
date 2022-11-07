@@ -17,6 +17,11 @@ margin: auto;
 text-align: center;
 }
 
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
 h1 {
   margin: 0.5rem 0;
   font-size: 100px;
@@ -77,16 +82,6 @@ main {
   align-items: center;
   padding: 0.5rem;
   background-color: rgb(3, 52, 143);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-
-form input {
-  width: 100%
 }
 
 img {

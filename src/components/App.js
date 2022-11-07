@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <br/>
       <NavBar />
       <Switch>
           <Route path="/about">
