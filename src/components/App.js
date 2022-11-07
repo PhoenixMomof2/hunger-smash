@@ -1,34 +1,30 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
 import Header from "./Header";
-import NavBar from "./NavBar";
-import FoodContainer from "./FoodContainer";
-import FoodTable from "./FoodTable";
-
-// import FoodForm from './FoodForm';
-
-const url = "http://localhost:3001/foods";
+import NavBar from "./NavBar"
+import About from "./About";
+import FoodList from "./FoodList";
+import FoodForm from "./FoodForm";
 
 const App = () => {
-  const [foods, setFoods] = useState([]);
-
-  useEffect(() => {
-    console.log("Using useEffect");
-    fetch(url)
-      .then((res) => res.json())
-      .then((foods) => setFoods(foods));
-      console.log(foods)
-  }, []);
-
   return (
-    <div className="app-container">
-      {console.log("App Rendering")}
+    <div>
       <Header />
       <NavBar />
-      <FoodTable foods={foods} />
-      <FoodContainer foods={foods} />
+      <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/foods">
+            <FoodList />
+          </Route>
+          <Route path="/newFoods">
+            <FoodForm />
+          </Route>
+        </Switch>
     </div>
   );
 }
 
 export default App;
+

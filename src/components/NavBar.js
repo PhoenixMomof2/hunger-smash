@@ -1,19 +1,51 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-export default function NavBar() {
+const linkStyles = {
+  display: "inline-block",
+  width: "50px",
+  padding: "12px",
+  margin: "0 6px 6px",
+  background: "blue",
+  textDecoration: "none",
+  color: "white",
+};
+
+ const NavBar = () => {
   return (
-    <div >
-      <nav>
-        <ul>
-          {/* <li><a href="">About</a></li>
-          <li><a href="">Taste Category</a></li>
-          <li><a href="">Smash Hunger</a></li>
-         */}
-        </ul>
-        <button className="about">About</button>
-        <button className="taste-category">Taste Category</button>
-        <button className="hunger-smash">Smash Hunger</button>
-      </nav>
+    <div>
+      <NavLink
+        to="/about"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        About
+      </NavLink>
+      <NavLink
+        to="/foods"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        Meals List
+      </NavLink>
+      <NavLink
+        to="/newFoods"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        New Meal Form
+      </NavLink>
     </div>
   );
 }
+
+export default NavBar;
