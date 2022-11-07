@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const linkStyles = {
-  display: "inline-block",
+  display: "inline",
   width: "50px",
   padding: "12px",
   margin: "0 6px 6px",

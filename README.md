@@ -1,9 +1,11 @@
-Client Side Routing
--URLs
-- REST REpresentation State Transfer
+WELCOME This application displays some of my favorite meals and treats.  Sometimes you just need a suggestion to stimulate those taste buds and smash that feeling of hunger.  The Hunger Smash app has you covered!
+Home
+  http://localhost:3001
 
 Routes:
-1-
+  http://localhost:3001/about
+  http://localhost:3001/foods
+  http://localhost:3001/newFoods
 
 
 

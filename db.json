@@ -1,7 +1,7 @@
 { 
   "about": [],
   "foods" : [
-    { "id": 1, "name": "Chicken Pot Pie", "imgUrl": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/01/low-calorie-chicken-pot-pie.jpg?quality=82&strip=1", "category": "Savory", "description": "" },
+    { "id": 1, "name": "Chicken Pot Pie", "imgUrl": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/01/low-calorie-chicken-pot-pie.jpg?quality=82&strip=1", "category": "Savory", "description": "This delicious meal is awesome all year round, and an absolute favorite of my children.  Using your InstaPot or even a pre-cooked Rotisserie chicken from your local grocer makes this a fast go-to in the winter." },
     { "id": 2, "name": "Apple Turnover","imgUrl": "https://assets.surlatable.com/m/105d5520ee7d4c1a/webimage-1753326_01i_1014_s.jpg", "category": "Sweet",  "description": "" },
     { "id": 3, "name": "Fiesta Mac", "imgUrl": "https://cafedelites.com/wp-content/uploads/2018/05/Beef-Chili-Mac-And-Cheese-IMAGE-5.jpg", "category": "Spicy",  "description": "" },
     { "id": 4, "name": "Steak Quesadilla", "imgUrl": "https://natashaskitchen.com/wp-content/uploads/2020/01/Philly-Cheesesteak-Quesedilla-5.jpg", "category": "Savory",  "description": "" },

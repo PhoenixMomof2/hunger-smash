@@ -5,8 +5,9 @@ function Header() {
   return (
     <div>
       <header>
+      <h1>HUNGER</h1> 
         <img src={image} alt="pic of empty plate" />
-        <h1>HUNGER SMASH</h1>
+        <h1>SMASH</h1>
       </header>
       <br/>
       <hr/>
