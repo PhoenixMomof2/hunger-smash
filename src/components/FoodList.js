@@ -12,6 +12,24 @@ const FoodList = () => {
       
   }, []);
 
+//   // in FoodList:
+// function addNewFood(newFood){
+//   setFoods([...foods, newFood) // Updating foods state.
+//  }
+ 
+//  //in FoodForm
+//  const configObj = {
+//   method: 'POST',
+//   headers: {'Content-Type': 'application/json'},
+//   body: JSON.stringify({name:"", imgUrl:"", category:"", description:""})
+//  }
+ 
+//  fetch('http://localhost:3000/foods', configObj)
+//   .then(res => res.json())
+//   .then(foods => setFoods(newFood)) //THIS STATE UPDATE IS REQUIRED!!!
+//   // clear form
+ 
+
   return (
     <div className="food-list">
       <ul className="food-cards">
