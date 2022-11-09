@@ -32,4 +32,12 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
+Whatever top-level keys exist in your db.json file will determine the routes available. In the example above, since we have a key of toys pointing to an array of toy objects, json-server will generate the following routes:
+
+GET /toys
+POST /toys
+GET /toys/:id
+PATCH /toys/:id
+DELETE /toys/:id
+
 

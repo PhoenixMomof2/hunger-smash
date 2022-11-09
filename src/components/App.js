@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/foods">
             <FoodList />
           </Route>
-          <Route path="/newFoods">
+          <Route exact path="/newFoods">
             <FoodForm />
           </Route>
         </Switch>

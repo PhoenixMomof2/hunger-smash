@@ -36,13 +36,13 @@ const linkStyles = {
       </NavLink>
       <NavLink
         to="/newFoods"
-        exact
+        exact 
         style={linkStyles}
         activeStyle={{
           background: "darkblue",
         }}
       >
-        New Meal Form
+        Add New Meal
       </NavLink>
     </div>
   );
