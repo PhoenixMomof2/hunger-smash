@@ -15,6 +15,16 @@ const linkStyles = {
   return (
     <div>
       <NavLink
+        to="/foods"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        Home
+      </NavLink>
+      <NavLink
         to="/about"
         exact
         style={linkStyles}

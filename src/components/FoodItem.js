@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-const FoodItem = ({food: {id, name, imgUrl, category, description} }) =>
+const FoodItem = ({food: {id, name, imgUrl, category, description}}) =>
 {
   return (
     <div>
@@ -15,7 +15,7 @@ const FoodItem = ({food: {id, name, imgUrl, category, description} }) =>
           component="img"
           height="140"
           image={imgUrl}
-          alt="Image of `${name}`"
+          alt="image of meal"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

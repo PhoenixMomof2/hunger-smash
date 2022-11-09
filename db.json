@@ -1,19 +1,132 @@
-{ 
-  "about" : [],
-  "foods" : [
-    { "id": 1, "name": "Chicken Pot Pie", "imgUrl": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/01/low-calorie-chicken-pot-pie.jpg?quality=82&strip=1", "category": "Savory", "description": "This delicious meal is awesome all year round, and an absolute favorite of my children.  Using your InstaPot or even a pre-cooked Rotisserie chicken from your local grocer makes this a fast go-to in the winter." },
-    { "id": 2, "name": "Apple Turnover","imgUrl": "https://assets.surlatable.com/m/105d5520ee7d4c1a/webimage-1753326_01i_1014_s.jpg", "category": "Sweet",  "description": "" },
-    { "id": 3, "name": "Fiesta Mac", "imgUrl": "https://cafedelites.com/wp-content/uploads/2018/05/Beef-Chili-Mac-And-Cheese-IMAGE-5.jpg", "category": "Spicy",  "description": "" },
-    { "id": 4, "name": "Steak Quesadilla", "imgUrl": "https://natashaskitchen.com/wp-content/uploads/2020/01/Philly-Cheesesteak-Quesedilla-5.jpg", "category": "Savory",  "description": "" },
-    { "id": 5, "name": "Chocolate Lava Cake", "imgUrl": "https://www.recipetineats.com/wp-content/uploads/2021/02/Chocolate-Lava-Cake_7-SQ.jpg", "category": "Sweet",  "description": "" },
-    { "id": 6, "name": "Jerk Chicken Alfredo Pasta", "imgUrl": "https://hips.hearstapps.com/hmg-prod/images/rasta-pasta-horizontal-1539379408.jpg", "category": "Spicy",  "description": "" },
-    { "id": 7, "name": "Black Bean Nachos", "imgUrl": "https://ifoodreal.com/wp-content/uploads/2016/12/spicy-black-bean-nachos-6.jpg", "category": "Spicy",  "description": "" },
-    { "id": 8, "name": "Blueberry Yogurt Parfait", "imgUrl": "https://thecakeblog.com/wp-content/uploads/2015/06/blueberry_yogurt_parfait.jpg", "category": "Sweet",  "description": "" },
-    { "id": 9, "name": "Ground Turkey Tacos", "imgUrl": "https://carlsbadcravings.com/wp-content/uploads/2018/09/turkey-tacos-16.jpg", "category": "Spicy",  "description": "" },
-    { "id": 10, "name": "Meatballs & Spaghetti Squash", "imgUrl": "https://www.primaverakitchen.com/wp-content/uploads/2018/11/Whole30-Low-Carb-Spaghetti-Squash-and-Meatballs-Primavera-Kitchen-5.jpg", "category": "Savory",  "description": "" },
-    { "id": 11, "name": "Hazelnut Gelato", "imgUrl": "http://themessybaker.com/wp-content/uploads/2013/06/hazelnut-gelato-close.gif", "category": "Sweet",  "description": "" },
-    { "id": 12, "name": "Banana Nut Bread", "imgUrl": "https://www.smalltownwoman.com/wp-content/uploads/2021/04/Banana-Bread-5.jpg", "category": "Sweet",  "description": "" }
-    ],
-
-  "newFoods" : []
+{
+  "about": [],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Chicken Pot Pie",
+      "imgUrl": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/01/low-calorie-chicken-pot-pie.jpg?quality=82&strip=1",
+      "category": "Savory",
+      "description": "This delicious meal is awesome all year round, and an absolute favorite of my children.  Using your InstaPot or even a pre-cooked Rotisserie chicken from your local grocer makes this a fast go-to in the winter."
+    },
+    {
+      "id": 2,
+      "name": "Apple Turnover",
+      "imgUrl": "https://assets.surlatable.com/m/105d5520ee7d4c1a/webimage-1753326_01i_1014_s.jpg",
+      "category": "Sweet",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Fiesta Mac",
+      "imgUrl": "https://cafedelites.com/wp-content/uploads/2018/05/Beef-Chili-Mac-And-Cheese-IMAGE-5.jpg",
+      "category": "Spicy",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Steak Quesadilla",
+      "imgUrl": "https://natashaskitchen.com/wp-content/uploads/2020/01/Philly-Cheesesteak-Quesedilla-5.jpg",
+      "category": "Savory",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Lava Cake",
+      "imgUrl": "https://www.recipetineats.com/wp-content/uploads/2021/02/Chocolate-Lava-Cake_7-SQ.jpg",
+      "category": "Sweet",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Jerk Chicken Alfredo Pasta",
+      "imgUrl": "https://hips.hearstapps.com/hmg-prod/images/rasta-pasta-horizontal-1539379408.jpg",
+      "category": "Spicy",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Black Bean Nachos",
+      "imgUrl": "https://ifoodreal.com/wp-content/uploads/2016/12/spicy-black-bean-nachos-6.jpg",
+      "category": "Spicy",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Blueberry Yogurt Parfait",
+      "imgUrl": "https://thecakeblog.com/wp-content/uploads/2015/06/blueberry_yogurt_parfait.jpg",
+      "category": "Sweet",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Ground Turkey Tacos",
+      "imgUrl": "https://carlsbadcravings.com/wp-content/uploads/2018/09/turkey-tacos-16.jpg",
+      "category": "Spicy",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Meatballs & Spaghetti Squash",
+      "imgUrl": "https://www.primaverakitchen.com/wp-content/uploads/2018/11/Whole30-Low-Carb-Spaghetti-Squash-and-Meatballs-Primavera-Kitchen-5.jpg",
+      "category": "Savory",
+      "description": ""
+    },
+    {
+      "id": 11,
+      "name": "Hazelnut Gelato",
+      "imgUrl": "http://themessybaker.com/wp-content/uploads/2013/06/hazelnut-gelato-close.gif",
+      "category": "Sweet",
+      "description": ""
+    },
+    {
+      "id": 12,
+      "name": "Banana Nut Bread",
+      "imgUrl": "https://www.smalltownwoman.com/wp-content/uploads/2021/04/Banana-Bread-5.jpg",
+      "category": "Sweet",
+      "description": ""
+    },
+    {
+      "name": "Turkey Meatball Sub",
+      "imgUrl": "https://emilybites.com/wp-content/uploads/2021/05/Beef-and-Turkey-Meatball-Subs-11b.jpg",
+      "category": "Savory",
+      "description": "Who doesn't like juicy meatballs on a fresh toasted kaiser roll?  Want to jazz this delicious meal up?  Add turkey pepperoni and baby spinach leaves!",
+      "id": 13
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "imgUrl": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg",
+      "category": "Sweet",
+      "description": "Warm from the oven with a cold glass of milk is how I like them!  The chocolate just melts in your mouth! Yum!",
+      "id": 14
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "imgUrl": "https://www.vindulge.com/wp-content/uploads/2020/04/Stuffed-Peppers-with-Ground-Beef-Cooked-on-the-Grill.jpg",
+      "category": "Savory",
+      "description": "Have this low-carb meal packed with nutrients.  These peppers can be stuffed with anything from rice, ground beef, or even shredded chicken.  Make them spicy or top them with your favorite cheese.  Absolutely delicious!",
+      "id": 15
+    },
+    {
+      "name": "Chicken Nuggets",
+      "imgUrl": "https://iwashyoudry.com/wp-content/uploads/2021/03/Chicken-Nuggets-4.jpg",
+      "category": "Savory",
+      "description": "Always a great go to for the kids.  Jazz it up for the parent with a spicy siracha dip.",
+      "id": 16
+    },
+    {
+      "name": "Turkey Meatball Sub",
+      "imgUrl": "https://emilybites.com/wp-content/uploads/2021/05/Beef-and-Turkey-Meatball-Subs-11b.jpg",
+      "category": "Savory",
+      "description": "Who doesn't like juicy meatballs on a fresh toasted kaiser roll?  Want to jazz this delicious meal up?  Add turkey pepperoni and baby spinach leaves!",
+      "id": 17
+    },
+    {
+      "name": "Turkey Meatball Sub",
+      "imgUrl": "https://emilybites.com/wp-content/uploads/2021/05/Beef-and-Turkey-Meatball-Subs-11b.jpg",
+      "category": "Savory",
+      "description": "Who doesn't like juicy meatballs on a fresh toasted kaiser roll?  Want to jazz this delicious meal up?  Add turkey pepperoni and baby spinach leaves!",
+      "id": 18
+    }
+  ],
+  "newFoods": []
 }

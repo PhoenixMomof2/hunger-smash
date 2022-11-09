@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { useHistory } from "react-router-dom";
 
-const FoodForm = ({ handleAddNewFood }) => {
+const FoodForm = ({handleAddNewFood}) => {
   // const category = categoryList.map(category)=>
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
@@ -9,28 +9,32 @@ const FoodForm = ({ handleAddNewFood }) => {
   const [description, setDescription] = useState("");
   // const history = useHistory();
 
-  const newFoodData = {
-    name,
-    imgUrl,
-    category,
-    description,
-  };
-
-  console.log(newFoodData);
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target, "submit handled")
-    console.log(name)
-    // fetch("http://localhost:3000/foods", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify(newFoodData),
-    // })
-    //   .then((res) => res.json())
-    //   .then((newFood) => console.log(newFood)); // update state
+    const newFoodData = {
+      name,
+      imgUrl,
+      category,
+      description,
+    };
+    // console.log(newFoodData);
+
+    fetch("http://localhost:3001/foods", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newFoodData),
+    })
+      .then((res) => res.json())
+      .then((newFood) => handleAddNewFood(newFood)); // update state
+      // clear form
+      setName("");
+      setImgUrl("");
+      setCategory("");
+      setDescription("");
   };
-  // clear form?
+  
 
   return (
     <div>

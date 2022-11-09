@@ -34,10 +34,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Whatever top-level keys exist in your db.json file will determine the routes available. In the example above, since we have a key of toys pointing to an array of toy objects, json-server will generate the following routes:
 
-GET /toys
-POST /toys
-GET /toys/:id
-PATCH /toys/:id
-DELETE /toys/:id
+GET /foods
+POST /newFoods
+GET /foods/:id
+PATCH /foods/:id
+DELETE /foods/:id
+
+## Blog on props
+
+Photo by <a href="https://unsplash.com/es/@nublson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nubelson Fernandes</a> on <a href="https://unsplash.com/s/photos/react?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 
