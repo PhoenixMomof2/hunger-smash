@@ -1,74 +1,88 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 const FoodForm = ({ handleAddNewFood }) => {
   // const category = categoryList.map(category)=>
   const [name, setName] = useState("");
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState("");
   const [imgUrl, setImgUrl] = useState("");
   const [description, setDescription] = useState("");
-  const history = useHistory();
+  // const history = useHistory();
+
+  const newFoodData = {
+    name,
+    imgUrl,
+    category,
+    description,
+  };
+
+  console.log(newFoodData);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(e.target, "submit handled")
-    const newFoodData = {
-      name: name,
-      imgUrl: imgUrl,
-      category: category,
-      description: description,
-    };
-    console.log(newFoodData);
-
-    fetch("http://localhost:3000/foods", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(newFoodData),
-    })
-      .then((res) => res.json())
-      .then((newFood) => console.log (newFood)); //THIS STATE UPDATE IS REQUIRED!!!
-    // clear form
+    console.log(e.target, "submit handled")
+    console.log(name)
+    // fetch("http://localhost:3000/foods", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(newFoodData),
+    // })
+    //   .then((res) => res.json())
+    //   .then((newFood) => console.log(newFood)); // update state
   };
+  // clear form?
 
   return (
     <div>
       <br />
       <h2>Add New Meal</h2>
-      <form className="NewFood">
+      <form className="NewFood" onSubmit={handleSubmit}>
         <div>
-        <label>New Food Name:   </label>
+          <label htmlFor="new-food-name">New Food Name: </label>
           <input
             type="text"
-            name="new-food-name"
+            id="new-food-name"
             placeholder="Enter Food Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
         <br />
         <div>
-        <label>New Taste Category:   </label>
+          <label htmlFor="category">New Taste Category: </label>
           <input
             type="text"
-            name="category"
+            id="category"
             placeholder="Enter Taste Category"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
           />
         </div>
         <br />
         <div>
-        <label>New Meal Image Source:   </label>
-          <input type="text" name="img-Url" placeholder="Enter Image Source" />
-        </div>
-        <br />
-        <div>
-        <label>New Meal Description:   </label>
+          <label htmlFor="img-Url">New Meal Image Source: </label>
           <input
             type="text"
-            name="description"
-            placeholder="Enter New Meal Description"
+            id="img-Url"
+            placeholder="Enter Image Source"
+            value={imgUrl}
+            onChange={(e) => setImgUrl(e.target.value)}
           />
-          
         </div>
         <br />
-        <input type="submit" value="Submit" onSubmit={handleAddNewFood} />
+        <div>
+          <label htmlFor="description">New Meal Description: </label>
+          <input
+            type="text"
+            id="description"
+            placeholder="Enter New Meal Description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+          />
+        </div>
+        <br />
+        <label htmlFor="submit">Submit New Meal: </label>
+        <input type="submit" value="Submit" />
       </form>
     </div>
   );
