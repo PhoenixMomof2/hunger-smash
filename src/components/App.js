@@ -36,7 +36,7 @@ function handleAddNewFood(newFood){
           <Route exact path="/newFoods">
             <FoodForm handleAddNewFood={handleAddNewFood}/>
           </Route>
-        </Switch>
+      </Switch>
     </div>
   );
 }

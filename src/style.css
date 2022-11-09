@@ -1,21 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 20px;
+  font-family: 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 div {
@@ -24,17 +10,24 @@ text-align: center;
 }
 
 p {
+  margin: 0.5rem 0;
   font-size: 20px;
   text-align: justify;
 }
 
+#about {
+  border: 3px solid #4CAF50;
+}
+
 h1 {
+  color:#3db82b;
   margin: 0.5rem 0;
   font-size: 100px;
   text-align: center;
 }
 
 h2 {
+  color:#3db82b;
   margin: 0.5rem 0;
   font-size: 50px;
   text-align: center;
@@ -52,42 +45,9 @@ li {
   display: inline;
 }
 
-button {
-  background: #9e23ba;
-  background-image: -webkit-linear-gradient(top, #9e23ba, #3db82b);
-  background-image: -moz-linear-gradient(top, #9e23ba, #3db82b);
-  background-image: -ms-linear-gradient(top, #9e23ba, #3db82b);
-  background-image: -o-linear-gradient(top, #9e23ba, #3db82b);
-  background-image: linear-gradient(to bottom, #9e23ba, #3db82b);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Georgia;
-  color: #ffffff;
-  font-size: 20px;
-  background: #9e23ba;
-  padding: 10px 20px 10px 20px;
-  border: solid #9e23ba 2px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  text-decoration: none;
-}
-
 main {
   margin: 0 auto;
   width: 90vw;
-}
-
-.card {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-  background-color: rgb(3, 52, 143);
 }
 
 img {

@@ -3,7 +3,6 @@ import FoodItem from "./FoodItem";
 
 const FoodList = ({foods}) => {
   
- 
   return (
     <div className="food-list">
       <br/>

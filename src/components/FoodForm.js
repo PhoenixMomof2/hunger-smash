@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-// import { useHistory } from "react-router-dom";
 
 const FoodForm = ({handleAddNewFood}) => {
-  // const category = categoryList.map(category)=>
+  
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
   const [imgUrl, setImgUrl] = useState("");
   const [description, setDescription] = useState("");
-  // const history = useHistory();
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
