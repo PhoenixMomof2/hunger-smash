@@ -112,6 +112,27 @@
       "category": "Savory",
       "description": "Always a great go to for the kids.  Jazz it up for the parent with a spicy siracha dip.",
       "id": 16
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "imgUrl": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg",
+      "category": "Sweet",
+      "description": "Warm from the oven with a cold glass of milk is how I like them!  The chocolate just melts in your mouth! Yum!",
+      "id": 17
+    },
+    {
+      "name": "Turkey Meatball Sub",
+      "imgUrl": "https://emilybites.com/wp-content/uploads/2021/05/Beef-and-Turkey-Meatball-Subs-11b.jpg",
+      "category": "Savory",
+      "description": "Who doesn't like juicy meatballs on a fresh toasted kaiser roll?  Want to jazz this delicious meal up?  Add turkey pepperoni and baby spinach leaves!",
+      "id": 18
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "imgUrl": "https://www.vindulge.com/wp-content/uploads/2020/04/Stuffed-Peppers-with-Ground-Beef-Cooked-on-the-Grill.jpg",
+      "category": "Savory",
+      "description": "Have a low carb meal packed with nutrients.  These peppers can be stuffed with anything from rice, ground beef, or even shredded chicken.  Make them spicy or top them with your favorite cheese.  Absolutely delicious!",
+      "id": 19
     }
   ],
   "newFoods": []
